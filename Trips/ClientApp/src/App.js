@@ -6,6 +6,7 @@ import Trips from './components/Trip/Trips';
 import { Create } from './components/Trip/Create';
 import { Update } from './components/Trip/Update';
 import { Delete } from './components/Trip/Delete';
+import { SingleTrip } from './components/Trip/SingleTrip';
 // import { LoginButton } from './components/LoginButton';
 // import { LogoutButton } from './components/LogoutButton';
 // import { Profile } from './components/Profile';
@@ -22,6 +23,7 @@ export default class App extends Component {
         <Route path='/trips' component={Trips} />
         <Route path='/update/:id' component={Update} />
         <Route path='/delete/:id' component={Delete} />
+        <Route path='/trip/:id' component={SingleTrip} />
         {/* <Route path="/login" component={LoginButton} />
         <Route path="/logout" component={LogoutButton} />
         <Route path="/profile" component={Profile} /> */}

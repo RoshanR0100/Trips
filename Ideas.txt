@@ -1,0 +1,5 @@
+1.Search Bar
+2.Map integration:
+	When you put the location it shows a google maps plug in 
+	-Add pins in the map of places you went to 
+3.

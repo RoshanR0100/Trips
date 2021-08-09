@@ -64,7 +64,7 @@ export class Create extends Component{
     render(){
         return(
             <div className="trip-form">
-                <h3>Add new trip</h3>
+                <h2>Add new trip</h2>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
                         <label>Trip name:</label>
